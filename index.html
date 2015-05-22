@@ -13,23 +13,37 @@
 
 </script>
 <title>Save URL to Dropbox</title>
-</head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/index.css">
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
 
-<div class="container">
-	<form class="form-signin" role="form">
-		<input id="url" class="form-control" placeholder="Enter the URL" required autofocus>
-		<input id="name" class="form-control" placeholder="Save File As...">
-		<button id="btn_save" class="btn btn-lg btn-primary btn-block" type="button">Save to Dropbox</button>
-	</form>
-</div>
+<body>
 
-<div id="footer">
-<div class="container">
-<p align="center" class="text-muted">Save URL to Dropbox - Made by <a href="https://github.com/swapagarwal">Swapnil Agarwal</a></p>
-</div>
-</div>
+	<div id ="main" class="container">
+		<h1 align="center">Save URL to Dropbox</h1>
+		<h1 align="center"><i class="fa fa-dropbox fa-3x"></i></h1>
+
+		<form class="form-signin" role="form">
+			<input id="url" class="form-control" placeholder="Enter Download URL" required autofocus>
+			<input id="name" class="form-control" placeholder="Save File As...">
+			<BR />
+			<button id="btn_save" class="btn btn-lg btn-primary btn-block" type="button">Save to Dropbox</button>
+		</form>
+	</div>
+
+	<footer class="navbar navbar-fixed-bottom">
+		<p align="center" class="text-muted">Made with <i class="fa fa-heart"></i> by 
+		<a href="https://github.com/swapagarwal">Swapnil Agarwal</a>
+		<BR />
+		Designed by
+		<a href="https://github.com/diezcami">Camille Diez</a>
+		<BR />
+		Dropbox and the Dropbox logo are trademarks of Dropbox, Inc.
+		</p>
+	</footer>
+</body>
 
 <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="evdg9q335aqf1za"></script>
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
