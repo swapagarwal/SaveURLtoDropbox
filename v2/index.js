@@ -1,6 +1,7 @@
 var options = {
     progress: function (progress) {
-        var value = var Math.round(100*progress);
+        var value = Math.round(100*progress);
+        $('.progress').css('display', 'inherit');
         $('.progress-bar').css('width', value+'%').attr('aria-valuenow', value);
     }
 };
