@@ -1,0 +1,52 @@
+body {
+  font-family: 'PT Sans';
+  padding-top: 40px;
+  padding-bottom: 70px;
+  background-color: #EEE;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.navbar-fixed-bottom {
+  padding-top: 13px;
+  background-color: #2F2F2F;
+}
+
+.navbar-fixed-bottom a {
+  color: #CCC;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #0EBFE9;
+  border-color: #0EBFE9;
+}
+
+.btn:hover {
+  background-color: #63D1F4;
+  border-color: #63D1F4;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 3px;
+  border: 0px;
+}
+
+.container p a{
+  color: #EFEFEF;
+  text-decoration: none;
+}

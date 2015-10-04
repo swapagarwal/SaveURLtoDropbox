@@ -1,0 +1,53 @@
+<head>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-48345425-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<title>Save URL to Dropbox</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="index.css">
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id ="main" class="container">
+        <h1 align="center">Save URL to Dropbox</h1>
+        <h1 align="center"><i class="fa fa-dropbox fa-3x"></i></h1>
+
+        <form class="form-signin" role="form">
+            <input id="url" class="form-control" placeholder="Enter Download URL" required autofocus>
+            <input id="name" class="form-control" placeholder="Save File As...">
+            <BR />
+            <button id="btn_save" class="btn btn-lg btn-primary btn-block" type="button">Save to Dropbox</button>
+        </form>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+            </div>
+        </div>
+    </div>
+
+    <footer class="navbar navbar-fixed-bottom">
+        <p align="center" class="text-muted">Made with <i class="fa fa-heart"></i> by 
+        <a href="https://github.com/swapagarwal">Swapnil Agarwal</a>
+        <BR />
+        Designed by
+        <a href="https://github.com/diezcami">Camille Diez</a>
+        <BR />
+        Dropbox and the Dropbox logo are trademarks of Dropbox, Inc.
+        </p>
+    </footer>
+</body>
+
+<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="evdg9q335aqf1za"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
