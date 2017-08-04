@@ -1,3 +1,9 @@
+$(document).keypress(function(e) {
+    if(e.which == 13) {
+        $("#btn_save").click();
+    }
+});
+
 $("#btn_save").click(function() {
 	Dropbox.save($('#url').val(),$('#name').val());
 });
