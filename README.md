@@ -13,3 +13,5 @@ Enter the URL of the file, and it will be instantly transferred from their host 
 3. Save to your Dropbox account
 
 ![alt text](https://github.com/yadia/SaveURLtoDropbox/blob/master/resources/saveurl.gif)
+
+![Demo GIF](https://media.giphy.com/media/xT9IgngaceREwZIROw/giphy.gif)
