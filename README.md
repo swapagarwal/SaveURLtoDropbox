@@ -1,4 +1,5 @@
-# SaveURLtoDropbox
+SaveURLtoDropbox
+================
 
 Saving files in Dropbox just got easier!
 
@@ -12,7 +13,3 @@ Enter the URL of the file, and it will be instantly transferred from their host 
 3. Save to your Dropbox account
 
 ![alt text](https://github.com/yadia/SaveURLtoDropbox/blob/master/resources/saveurl.gif)
-
-
-
-
