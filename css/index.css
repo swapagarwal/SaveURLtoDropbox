@@ -1,8 +1,12 @@
 body {
-  font-family: 'PT Sans';
+  font-family: 'Ubuntu', sans-serif;
   padding-top: 40px;
   padding-bottom: 70px;
-  background-color: #EEE;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none!important;
 }
 
 h1 {
@@ -15,7 +19,7 @@ h1 {
 }
 
 .navbar-fixed-bottom a {
-  color: #CCC;
+  color: #ccc;
 }
 
 .form-signin {
@@ -27,26 +31,39 @@ h1 {
 .btn {
   background-color: #0EBFE9;
   border-color: #0EBFE9;
+  align-items: center;
+  color: #fff;
+  user-select: none;
+  font-weight: 100;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  border-radius: 5px;
+  white-space: nowrap;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 }
 
 .btn:hover {
-  background-color: #63D1F4;
+  background-color: #0EBFE9;
+  border-color: #63D1F4;
+  box-shadow: 0 0px 18px rgba(158, 158, 158, 0.23);
+  
+}
+
+.btn:active {
+  color: #fff;
+  background-color: #0EBFE9;
   border-color: #63D1F4;
 }
 
 .form-signin .form-control {
-  position: relative;
-  height: auto;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  font-size: 16px;
-  margin-bottom: 3px;
-  border: 0px;
+     position: relative;
+    height: auto;
+    box-sizing: border-box;
 }
 
-.container p a{
-  color: #EFEFEF;
+.container p a {
+  color: #efefef;
   text-decoration: none;
 }
